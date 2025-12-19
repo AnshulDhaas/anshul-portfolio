@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Anshul Dhaas | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Anshul Dhaas — High School Student & Builder. Portfolio, projects, and contact." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="wrapper nav-inner">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-badge">A</span>
+        <span class="brand-name">Anshul Dhaas</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="https://anshuldhaas.hashnode.dev" target="_blank" rel="noreferrer">Blog</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+        ☀ Light
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="wrapper hero-grid">
+        <div>
+          <p class="hero-kicker">Hi, I’m</p>
+
+          <h1 class="hero-title">
+            Anshul Dhaas<br />
+            <span>High School Student & Builder</span>
+          </h1>
+
+          <div class="hero-roles" aria-label="Rotating roles">
+            <span class="hero-roles-static">I AM A</span>
+            <span class="hero-roles-dynamic" id="roleText">Developer</span>
+          </div>
+
+          <p class="hero-sub">
+            I’m a student at <strong>Westmont High School, CA</strong>, based in
+            <strong>San Jose</strong>. I enjoy building software, learning new
+            technologies, and documenting my journey as I grow as a developer.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="avatar-card" aria-label="Profile photo">
+          <img src="assets/profile.jpg" alt="Anshul Dhaas" class="avatar-img" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrapper about-grid">
+        <div>
+          <p class="section-kicker">about</p>
+          <h2 class="section-title">A bit about me.</h2>
+          <p class="muted">
+            I enjoy working across the stack—from frontend design to backend logic
+            and deployment. I like learning by building projects and sharing what I
+            learn along the way.
+          </p>
+          <p class="muted">
+            This site is my personal space to showcase my work, interests, and
+            progress as a student developer.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Quick Info</h3>
+          <div class="info-grid">
+            <div>
+              <div class="info-label">School</div>
+              <div>Westmont High School, CA</div>
+            </div>
+            <div>
+              <div class="info-label">Location</div>
+              <div>San Jose, CA</div>
+            </div>
+            <div>
+              <div class="info-label">Email</div>
+              <div><a href="mailto:anshuldhaas@gmail.com">anshuldhaas@gmail.com</a></div>
+            </div>
+            <div>
+              <div class="info-label">Links</div>
+              <div class="inline-links">
+                <a href="https://github.com/AnshulDhaas" target="_blank" rel="noreferrer">GitHub</a>
+                <span class="dot">•</span>
+                <a href="https://linkedin.com/in/anshuldhaas" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrapper">
+        <p class="section-kicker">skills</p>
+        <h2 class="section-title">Tools I use.</h2>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3 class="card-title">Languages</h3>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">C++</span>
+              <span class="chip">HTML / CSS</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Frameworks</h3>
+            <div class="chips">
+              <span class="chip">React</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">Express</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Tools</h3>
+            <div class="chips">
+              <span class="chip">Git & GitHub</span>
+              <span class="chip">Netlify</span>
+              <span class="chip">Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrapper">
+        <p class="section-kicker">projects</p>
+        <h2 class="section-title">Things I’ve built.</h2>
+
+        <div class="grid-2">
+          <article class="card">
+            <h3 class="card-title">Portfolio Website</h3>
+            <p class="muted">
+              Personal website built with HTML/CSS/JS and deployed via GitHub + Netlify.
+            </p>
+            <div class="tag">#web</div>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title">Study Helper App</h3>
+            <p class="muted">
+              A small app to help students organize tasks and study sessions.
+            </p>
+            <div class="tag">#productivity</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrapper">
+        <p class="section-kicker">contact</p>
+        <h2 class="section-title">Let’s connect.</h2>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">Reach me</h3>
+            <p class="muted">
+              Want to collaborate or chat about projects? Email is best.
+            </p>
+
+            <div class="contact-list">
+              <div><span class="info-label">Email</span><br /><a href="mailto:anshuldhaas@gmail.com">anshuldhaas@gmail.com</a></div>
+              <div><span class="info-label">GitHub</span><br /><a href="https://github.com/AnshulDhaas" target="_blank" rel="noreferrer">github.com/AnshulDhaas</a></div>
+              <div><span class="info-label">LinkedIn</span><br /><a href="https://linkedin.com/in/anshuldhaas" target="_blank" rel="noreferrer">linkedin.com/in/anshuldhaas</a></div>
+              <div><span class="info-label">Blog</span><br /><a href="https://anshuldhaas.hashnode.dev" target="_blank" rel="noreferrer">anshuldhaas.hashnode.dev</a></div>
+            </div>
+          </div>
+
+          <div class="muted">
+            Tip: Once you publish blogs, you can add a “Latest Posts” section here that links to your Hashnode articles.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper">© 2025 Anshul Dhaas · Built with HTML/CSS/JS</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
